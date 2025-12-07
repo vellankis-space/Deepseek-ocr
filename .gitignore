@@ -1,0 +1,51 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+.env*/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# Cache
+.cache/
+.mypy_cache/
+.pytest_cache/
+.pyre/
+
+# Project-specific
+examples/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local config / env
+.env.local
+.env.*.local
+
+# Misc
+*.bak
+*.tmp

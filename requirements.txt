@@ -1,0 +1,15 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.46.0
+tokenizers>=0.20.0
+accelerate
+einops
+addict 
+easydict
+torchvision
+PyMuPDF
+pillow
+
+# Optional: Flash Attention (CUDA Linux/Windows only, improves performance)
+# Install manually if on CUDA Linux: pip install flash-attn --no-build-isolation
+# Not required - the app will use 'eager' attention as fallback
